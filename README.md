@@ -1,6 +1,6 @@
 # Example Fitting Codes
 
-This page is to proivde a number of fitting codes.    To make the fits more interest, we make use of the table of proton form factors
+This page is to proivde a number of fitting codes.    To make the fits a real world example, we make use of the table of proton form factors
 found in L.N.Hand, D.G.Miller and Richard Wilson, Review of Modern Physics 35 (1963) 342 to make proton radius extractions using classic data.
 
 * Excel - using a spreadsheet allows one to see how the minimization works
