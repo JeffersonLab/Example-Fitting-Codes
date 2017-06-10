@@ -13,7 +13,8 @@ set terminal wxt font 'Verdana,14' size 1200,600
 #
 # using a system call to cat the ASCII data files together
 #
-system 'cat Lehmann.dat Drickey.dat Yount.dat Bumiller.dat > all.dat'
+system 'cat Lehmann.dat Drickey.dat Yount.dat Bumiller.dat | sort > all.dat'
+#system 'sort all.dat > all.dat'
 #
 # Standard Functions
 # ------------------
