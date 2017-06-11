@@ -84,6 +84,7 @@ plt.ylabel("G$_E$")
 plt.legend(loc=1)
 plt.show()
 
+
 #
 # Results of Fitting Hand Data
 #
@@ -101,4 +102,3 @@ print np2[1],' linear parameter,',np2[2], 'quadratic parameter'
 print np2stat[0]/(len(nq2)-2)
 
 raise SystemExit()
-
