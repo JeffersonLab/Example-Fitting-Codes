@@ -10,13 +10,7 @@ import matplotlib.pyplot as plt
 from   math import *
 
 #
-# Data File
-#
-
-filename="Hand-Data.csv"
-
-#
-# Definitions
+# Defining Functions
 #
 
 def loadarray(filename,element):
@@ -41,32 +35,70 @@ def loadinv(filename,element):
              continue
       return np.data 
 
+def dd(q2): # Doug Dipole Function
+    return (1+q2/0.66/25.7)**(-2)
+
+def sd(q2): # Standard Dipole Function
+    return (1+q2/0.71/25.7)**(-2)
+
 #
 # Load The Data
 #
 
+filename="Hand-Data.csv"
 q2=loadarray(filename,0)
 ge=loadarray(filename,1)
 dge=loadarray(filename,2)
 wge=loadinv(filename,2)
 
+filename="Carlson.csv"
+nq2=loadarray(filename,0)
+nge=loadarray(filename,1)
+ndge=loadarray(filename,2)
+nwge=loadinv(filename,2)
+
 print "Loaded ",len(q2)," points from", filename,"."
 
 p2, p2stat = poly.polyfit(q2,ge,2,full=True,w=wge)
+np2, np2stat = poly.polyfit(nq2,nge,2,full=True,w=nwge)
 
 ffit2=poly.Polynomial(p2)
+nffit2=poly.Polynomial(np2)
 
-plt.figure(1)
-plt.errorbar(q2,ge,xerr=0,yerr=dge,linestyle="None",fmt='o')
+#
+# Make Plot of Results
+#
+plt.rcParams['font.size'] = 14
+plt.figure(figsize=(12,6))
+plt.errorbar(nq2,nge,xerr=0,yerr=ndge,linestyle="None",fmt='o',label="Carlson Form Factor Data")
+plt.errorbar(q2,ge,xerr=0,yerr=dge,linestyle="None",fmt='o',label="Hand Form Factor Data")
 q2r=np.linspace(0,30,3000)
-plt.plot(q2r,ffit2(q2r))
+plt.plot(q2r,ffit2(q2r), label="Quadratic Fit of Hand Data")
+plt.plot(q2r,nffit2(q2r), label="Quadratic Fit of Carlson Data")
+plt.plot(q2r,dd(q2r), label="Doug 0.84fm Dipole")
+plt.plot(q2r,sd(q2r), label="Standard 0.84fm Dipole")
 plt.xlim(0,3.2)
-plt.ylim(0.65,1.01)
-plt.xlabel("q$^2$ [fm$^{-2}$]")
+plt.ylim(0.7,1.01)
+plt.xlabel("Q$^2$ [fm$^{-2}$]")
 plt.ylabel("G$_E$")
+plt.legend(loc=1)
 plt.show()
 
+#
+# Results of Fitting Hand Data
+#
+
 print sqrt(-6*p2[1]),' radius'
-print p2[0],p2[1],p2[2]
+print p2[1],' linear parameter,',p2[2], 'quadratic parameter'
 print p2stat[0]/(len(q2)-2)
+
+#
+# Result of Fitting Carlson Data
+#
+
+print sqrt(-6*np2[1]),' radius'
+print np2[1],' linear parameter,',np2[2], 'quadratic parameter'
+print np2stat[0]/(len(nq2)-2)
+
+raise SystemExit()
 
