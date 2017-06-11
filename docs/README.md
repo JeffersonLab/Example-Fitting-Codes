@@ -10,5 +10,5 @@ found in L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 
 * Python - making use of matplotlib and polynomial fitting libraries
 * R - powerhouse fitting program with tons of diagnostic plots
 
-<img src="https://github.com/JeffersonLab/Example-Fitting-Codes/GNUPLOT/gnuplot-output.png" width="1024">
+<img src="https://raw.githubusercontent.com/JeffersonLab/Example-Fitting-Codes/master/GNUPLOT/gnuplot-output.png" width="1024">
 
