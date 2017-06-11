@@ -8,4 +8,6 @@ found in L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 
 * Python - making use of matplotlib and polynomial fitting libraries
 * R - powerhouse fitting program with tons of diagnostic plots
 
+<center>
 <img src="https://github.com/JeffersonLab/Example-Fitting-Codes/blob/master/GNUPLOT/gnuplot-output.png" width="800">
+</center>
