@@ -1,6 +1,6 @@
 # Example Fitting Codes
 
-Downloads:
+Download example files:
 <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/zipball/master" class="button">ZIP</a>
 <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/tarball/master" class="button">TAR</a>
 
