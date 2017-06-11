@@ -8,7 +8,7 @@ This page is to proivdes a number of example fitting codes.    In order to make 
 found in L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 342 to make proton radius extractions using classic data.   The proton radius is related to the slope of the proton form factor.
 
 * <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/blob/master/EXCEL/README.md">EXCEL</a> - using a spreadsheet allows one to see how the minimization works
-* GNUPLOT - a powerful tool for making pretty plot and doing basic fitting
+* GNUPLOT - a powerful tool for making pretty plots and doing basic fitting
 * Python - making use of matplotlib and polynomial fitting libraries
 * R - powerhouse fitting program with tons of diagnostic plots
 
