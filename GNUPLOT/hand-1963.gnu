@@ -35,7 +35,6 @@ fit f(x) 'all.dat' using 1:2:3 yerrors via f1,A
 set xrange [0:1.05]
 g(x)=1+g1*x+A*x**2
 fit g(x) 'all.dat' using 1:2:3 yerrors via g1
-print 'using all.dat file with cut',g1
 #
 # Make Nice Plot of the Results
 # -----------------------------
