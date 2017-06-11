@@ -1,5 +1,11 @@
 # Example Fitting Codes
 
+<span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/JeffersonLab/Example-Fitting-Codes/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/JeffersonLab/Example-Fitting-Codes/master" class="button">TAR</a></li>
+</ul>
+
 Download: <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/releases/latest">Latest Release</a>
 
 This page is to proivdes a number of example fitting codes.    In order to make this a real world example, we make use of the table of proton form factors
