@@ -4,8 +4,7 @@ Download example files:
 <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/zipball/master" class="button">ZIP</a>
 <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/tarball/master" class="button">TAR</a>
 
-This page provides a number of example weighted least squares fitting codes.    In order to make this a real world example, we make use of the table of proton form factors
-found in L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 342 to make proton radius extractions using classic data.   The proton radius is related to the slope of the proton form factor.
+This site provides a number of examples of weighted least squares fitting codes.    In order to make the project a little more interesting, we make use of the proton form factors found in Table I of L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 342 to make proton radius extractions.   
 
 * <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/blob/master/EXCEL/README.md">EXCEL</a> - using a spreadsheet allows one to see how the minimization works
 * GNUPLOT - a powerful tool for making pretty plots and doing basic fitting
