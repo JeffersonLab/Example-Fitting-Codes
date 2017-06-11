@@ -1,7 +1,7 @@
 # Example Fitting Codes
 
 This page is to proivdes a number of example fitting codes.    In order to make this a real world example, we make use of the table of proton form factors
-found in L.N.Hand, D.G.Miller and Richard Wilson, Review of Modern Physics 35 (1963) 342 to make proton radius extractions using classic data.   The proton radius is related to the slope of the proton form factor.
+found in L.N.Hand, D.G.Miller and Richard Wilson, Review of Modern Physics <b>35</b> (1963) 342 to make proton radius extractions using classic data.   The proton radius is related to the slope of the proton form factor.
 
 * Excel - using a spreadsheet allows one to see how the minimization works
 * GNUPLOT - a powerful tool for making pretty plot and doing basic fitting
