@@ -1,1 +1,2 @@
 theme: jekyll-theme-leap-day
+JEKYLL_ENV=production jekyll build
