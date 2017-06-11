@@ -1,5 +1,7 @@
 # Example Fitting Codes
 
+Download a tar file of the latest release: https://github.com/JeffersonLab/Example-Fitting-Codes/releases/latest
+
 This page is to proivdes a number of example fitting codes.    In order to make this a real world example, we make use of the table of proton form factors
 found in L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 342 to make proton radius extractions using classic data.   The proton radius is related to the slope of the proton form factor.
 
