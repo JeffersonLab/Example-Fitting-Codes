@@ -80,7 +80,7 @@ plt.plot(q2r,sd(q2r), label="Standard 0.81fm Dipole")
 plt.xlim(0,3.2)
 plt.ylim(0.7,1.01)
 plt.xlabel("Q$^2$ [fm$^{-2}$]")
-plt.ylabel("G$_E$")
+plt.ylabel("$\mathrm{G}_{\mathrm{E}}$")
 plt.legend(loc=1)
 plt.show()
 
