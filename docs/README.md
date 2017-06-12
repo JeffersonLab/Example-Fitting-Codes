@@ -1,4 +1,4 @@
-# Example Polynominal Regression Codes
+# Example Regression Codes
 
 Download example files:
 <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/zipball/master" class="button">ZIP</a>
