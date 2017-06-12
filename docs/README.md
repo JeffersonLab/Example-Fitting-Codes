@@ -13,7 +13,7 @@ This site provides a number of examples of weighted least squares fitting codes.
 
 <img src="https://raw.githubusercontent.com/JeffersonLab/Example-Fitting-Codes/master/GNUPLOT/gnuplot-output.png" width="1024">
 
-# Further Reading
+## Further Reading
 
 <a href="http://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-tutorial-and-examples">Regression Analysis Tutorial and Examples</a>
 
