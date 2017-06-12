@@ -16,4 +16,4 @@ This site provides a number of examples of regression codes in a number of diffe
 ## Further Reading
 
 * <a href="http://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-tutorial-and-examples">Regression Analysis Tutorial and Examples</a>
-* <a href="http://data.library.virginia.edu/diagnostic-plots/">Understanding Plots for Linear Regression Analysis</a>
+* <a href="http://data.library.virginia.edu/diagnostic-plots/">Understanding Diagnostic Plots for Linear Regression Analysis</a>
