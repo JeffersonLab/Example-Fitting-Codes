@@ -1,5 +1,4 @@
-From page 347 of <a href="https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.35.335">Hand et al., Rev. Mod. Rphys. 35 (1963) 335</a> paper,
-one finds the following statement, "The accurate values of GE at low q2 enable us to
+From page 347 of <a href="https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.35.335">L. Hand et al., Rev. Mod. Rphys. 35 (1963) 335</a> paper, one finds the following statement, "The accurate values of GE at low q2 enable us to
 state the derivative (dGE/dq2) at q2 = 0 accurately.
 We use the data in Table I q2 = 1.05 fm^{-2}. It is
 neeessary to use a quadratic fit to GE = 1 - 1/6(r)q2 + Aq4 
@@ -11,4 +10,4 @@ where the rms radius of the proton is given by
 
 This Python code does exactly this.   First fitting the data
 upto 3 fm^{-3} and then passing the parameter A to a second
-fit which 
+fit.   Amusingly this fit give 0.853  +/-  0.018.
