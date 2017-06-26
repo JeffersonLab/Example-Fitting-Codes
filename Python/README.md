@@ -9,5 +9,5 @@ where the rms radius of the proton is given by
 (r) = 0.805 & 0.011 fm."
 
 This Python code does exactly this.   First fitting the data
-upto 3 fm^{-3} and then passing the parameter A to a second
-fit.   Amusingly this fit give 0.853  +/-  0.018.
+upto 3 fm^{-2} and then passing the parameter A to a second
+fit upto 1.05 fm^{-2}.   Amusingly this fit give 0.853  +/-  0.018 fm.
