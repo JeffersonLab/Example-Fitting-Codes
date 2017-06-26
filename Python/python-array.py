@@ -340,8 +340,8 @@ lll=np.unique(nam)
 count=0
 for l in lll:
     count=count+1
-    if l != "Carlson" or l !="Berneaur Polynomial":
-#    if l !="BBerneaur Polynomial":# and l !="Carlson":
+#    if l != "Carlson" and l !="Berneaur Polynomial":
+    if l != "Berneaur Polynomial":
        sss=loadarray2(filename,l)
        plt.errorbar(sss[0],sss[1],xerr=0,yerr=sss[2],marker='o',label=l,linestyle="none")
 q2r=np.linspace(0,30,3000)
@@ -354,7 +354,7 @@ plt.plot(q2r,jan(q2r/25.7), label="Jan 0.88fm Polynomial",color="red",zorder=10)
 #plt.plot(q2r,ffit2(q2r), label="Fit Function",color="orange",zorder=0)
 plt.plot(q2r, func(q2r, *popt), 'r-', label='Rational Function Fit',color="green",zorder=10)
 plt.xlim(0,3.1)
-plt.ylim(0.5,1.0)
+plt.ylim(0.7,1.0)
 plt.xlabel("Q$^2$ [fm$^{-2}$]")
 plt.ylabel("$\mathrm{G}_{\mathrm{E}}$")
 # Remove Error Bars From Legend
