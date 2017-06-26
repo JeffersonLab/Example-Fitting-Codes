@@ -72,12 +72,12 @@ def loadratio(filename,cut):
       sss=np.transpose(np.ttt)
       return plt.errorbar(sss[0],sss[1],xerr=0,yerr=sss[2],marker='o',label=cut,linestyle="none")
 
-def jan(q2):
+def jan(q2): # Jan Ge
       x=q2
       jan = 1 -3.36591660e+00*x + 1.45487683e+01*x**2 -8.87959239e+01*x**3 + 4.61097705e+02*x**4 -1.67562381e+03*x**5 + 4.07646487e+03*x**6  -6.45411460e+03*x**7 + 6.34035079e+03*x**8 -3.49373923e+03*x**9 + 8.22601568e+02*x**10
       return jan
 
-def jam(q2):
+def jam(q2): # Jan Gm
      x=q2
      jam = 1 - 2.65842069e+00*x + 2.89693429e+00*x**2 + 2.54442451e+00*x**3 + 2.96659176e+01*x**4 -2.85555012e+02*x**5 + 9.25396398e+02*x**6  -1.57504071e+03*x**7 + 1.51259219e+03*x**8  -7.76928514e+02*x**9 +  1.66272626e+02*x**10
      return jam
