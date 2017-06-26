@@ -10,4 +10,5 @@ where the rms radius of the proton is given by
 
 This Python code does exactly this.   First fitting the data
 upto 3 fm^{-2} and then passing the parameter A to a second
-fit upto 1.05 fm^{-2}.   Amusingly, this fits give 0.853  +/-  0.018 fm.
+fit upto 1.05 fm^{-2}.   Amusingly, this fits gives 0.853  +/-  0.018 fm
+where the uncertainty is calculated from the covariance matrix.
