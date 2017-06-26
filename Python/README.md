@@ -7,3 +7,7 @@ parameter A.   The data are quite consistent and we
 deduce (dGE/dq ) at q2=0 is -0.108 & 0.003 fm^{-2}
 where the rms radius of the proton is given by
 (r) = 0.805 & 0.011 fm."
+
+This Python code does exactly this.   First fitting the data
+upto 3 fm^{-3} and then passing the parameter A to a second
+fit which 
