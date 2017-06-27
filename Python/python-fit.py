@@ -22,7 +22,7 @@ def loaddata(filename,cutoff):
           q2=float(values[0])
           ge=float(values[1])
           dge=float(values[2])
-          if q2 < cutoff:
+          if q2 <= cutoff:
              data.append([q2,ge,dge])
        except:
           continue
@@ -73,7 +73,6 @@ def rcalc(p1):
 #
 
 filename="Hand-Data.csv"
-filename="Carlson.csv"
 cutoff=3.0
 hand=loaddata(filename,cutoff)
 q2=hand[0]
@@ -109,7 +108,6 @@ print ("with a chi2 of {0:.3f} ".format(chi_squared))
 print ("with a reduced chi2 of {0:.3f} ".format(reduced_chi_squared))
 
 filename="Hand-Data.csv"
-filename="Carlson.csv"
 cutoff=1.05
 hand=loaddata(filename,cutoff)
 lq2=hand[0]
