@@ -1,6 +1,6 @@
 # Example Regression Codes
 
-This site provides several example regression codes in a number of different programming languages.    To make learning regression more interesting, the codes make use of th charge form factor data found in Table I of <a href=https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.35.335>L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 342</a> to make proton radius extractions.   
+This site provides several example regression codes in a number of different programming languages.    To make learning regression more interesting, the codes make use of the charge form factor data found in Table I of <a href=https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.35.335>L.N.Hand, D.G.Miller and R.Wilson, Rev. of Mod. Phys. <b>35</b> (1963) 342</a> to make proton radius extractions.   
 
 * <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/blob/master/EXCEL/README.md">EXCEL</a> - using a spreadsheet allows one to see how the minimization works
 * <a href="https://github.com/JeffersonLab/Example-Fitting-Codes/blob/master/GNUPLOT/README.md">GNUPLOT</a>  - a powerful tool for making pretty plots and doing basic fitting
