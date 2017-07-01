@@ -10,6 +10,7 @@ from   scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 from matplotlib import container
 from   math import *
+
 #
 # Definition For Reading Data From ASCII File
 #
@@ -162,9 +163,8 @@ for h in handles:
         new_handles.append(h)
 ax.legend(new_handles, labels,loc=1)
 
-#plt.legend(loc=1)
 plt.show()
-
+#plt.savefig('output.pdf', bbox_inches='tight') 
 
 #
 # Result of Fitting Carlson Data
