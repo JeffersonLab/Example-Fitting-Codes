@@ -12,3 +12,5 @@ This Python code does exactly this.   First fitting the data
 upto 3 fm^{-2} and then passing the parameter A to a second
 fit upto 1.05 fm^{-2}.   Amusingly, this fits gives 0.853  +/-  0.018 fm
 where the uncertainty is calculated from the covariance matrix.  
+
+<img src="https://raw.githubusercontent.com/JeffersonLab/Example-Fitting-Codes/master/Python/output.pdf" width="1024">
