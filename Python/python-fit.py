@@ -8,8 +8,8 @@ import numpy as np
 import numpy.polynomial.polynomial as poly
 from   scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
+from matplotlib import container
 from   math import *
-
 #
 # Definition For Reading Data From ASCII File
 #
@@ -149,7 +149,20 @@ plt.xlim(0,3.2)
 plt.ylim(0.7,1.01)
 plt.xlabel("Q$^2$ [fm$^{-2}$]")
 plt.ylabel("$\mathrm{G}_{\mathrm{E}}$")
-plt.legend(loc=1)
+
+# Remove Error Bars From Legend
+ax = plt.gca()
+handles, labels = ax.get_legend_handles_labels()
+new_handles = []
+for h in handles:
+    #only need to edit the errorbar legend entries
+    if isinstance(h, container.ErrorbarContainer):
+        new_handles.append(h[0])
+    else:
+        new_handles.append(h)
+ax.legend(new_handles, labels,loc=1)
+
+#plt.legend(loc=1)
 plt.show()
 
 
