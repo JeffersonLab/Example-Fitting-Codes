@@ -163,8 +163,8 @@ for h in handles:
         new_handles.append(h)
 ax.legend(new_handles, labels,loc=1)
 
-#plt.show()
-plt.savefig('python-output.png', bbox_inches='tight') 
+plt.show()
+#plt.savefig('python-output.png', bbox_inches='tight') 
 
 #
 # Result of Fitting Carlson Data
